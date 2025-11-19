@@ -1,0 +1,11 @@
+root_dir: ''
+split_path: split.csv
+models:
+  # - efficientnet_b4/unet_db.yaml
+  - efficientnet_b4/unetpp_db.yaml
+  # - efficientnet_b4/fpn_db.yaml
+  # - efficientnet_b4/pspnet_db.yaml
+  # - efficientnet_b4/linknet_db.yaml
+  - efficientnet_b4/deeplabv3_db.yaml
+  - efficientnet_b4/deeplabv3p_db.yaml
+  # - efficientnet_b4/manet_db.yaml

@@ -1,0 +1,10 @@
+root_dir: ''
+split_path: split.csv
+models:
+  # - linknet/linknet_mobile_small_minimal_slog.yaml
+  # - linknet/linknet_mobile_large_minimal_slog.yaml
+  # - linknet/linknet_mobile_small_minimal_db.yaml
+  # - linknet/linknet_mobile_large_minimal_db.yaml
+  # - linknet/linknet_efficientb4_db_e4.yaml
+  # - linknet/linknet_efficientb4_slog_e4.yaml
+  - linknet/linknet_efficientb4_3way.yaml

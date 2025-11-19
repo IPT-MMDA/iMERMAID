@@ -1,0 +1,4 @@
+root_dir: ''
+split_path: split.csv
+models:
+  - linknet/linknet_efficientb4_fft.yaml

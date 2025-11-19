@@ -1,0 +1,13 @@
+data_version: S1
+arch_name: FPN
+encoder_name: efficientnet-b4
+encoder_weights: imagenet
+vv2rgb_name: dB
+model_version: default
+hparams:
+  -
+    image_size: 640
+    learning_rate: 0.001
+    max_epochs: 200
+    batch_size: 4
+    accumulate_grad_batches: 1

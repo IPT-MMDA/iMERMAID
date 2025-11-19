@@ -1,0 +1,11 @@
+root_dir: ''
+split_path: split.csv
+models:
+  - mobileone_s4/linknet_db.yaml
+  - mobileone_s4/unet_db.yaml
+  - mobileone_s4/unetpp_db.yaml
+  - mobileone_s4/fpn_db.yaml
+  - mobileone_s4/pspnet_db.yaml
+  # - mobileone_s4/deeplabv3_db.yaml
+  # - mobileone_s4/deeplabv3p_db.yaml
+  - mobileone_s4/manet_db.yaml

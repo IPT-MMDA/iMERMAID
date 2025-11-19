@@ -1,0 +1,19 @@
+data_version: S1
+arch_name: Linknet
+encoder_name: timm-mobilenetv3_small_minimal_100
+encoder_weights: imagenet
+vv2rgb_name: dB
+model_version: staged
+hparams:
+  -
+    image_size: 32
+    learning_rate: 0.01
+    max_epochs: 10
+    batch_size: 32
+    accumulate_grad_batches: 1
+  -
+    image_size: 64
+    learning_rate: 0.001
+    max_epochs: 20
+    batch_size: 16
+    accumulate_grad_batches: 2

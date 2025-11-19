@@ -1,0 +1,11 @@
+root_dir: ''
+split_path: split.csv
+models:
+  # - unet_small_db.yaml
+  # - unetpp_small_db.yaml
+  # - fpn_small_db.yaml
+  # - pspnet_small_db.yaml
+  # - linknet_small_db.yaml
+  - deeplabv3_small_db.yaml
+  # - deeplabv3p_small_db.yaml
+  # - manet_small_db.yaml

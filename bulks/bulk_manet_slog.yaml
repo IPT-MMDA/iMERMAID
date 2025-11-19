@@ -1,0 +1,7 @@
+root_dir: ''
+split_path: split.csv
+models:
+  # - slog/manet_mobile_small_slog.yaml
+  # - slog/manet_mobile_large_slog.yaml
+  # - slog/manet_mitb0_slog.yaml
+  # - slog/manet_gernet_s_slog.yaml
