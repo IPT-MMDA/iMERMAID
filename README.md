@@ -1,8 +1,18 @@
-# iMermaid
+# iMermaid project: Oil spill detection using LinkNet
 
 ![iMermaid logo](assets/logos.png)
 
-Oil spill detection model based on LinkNet. Developed by Department of Mathematical Modelling and Data Analysis ([MMDA](https://mmda.ipt.kpi.ua/en/)) of the National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute” ([NTUU KPI](https://kpi.ua/en)) within the iMermaid project.
+Developed by Department of Mathematical Modelling and Data Analysis ([MMDA](https://mmda.ipt.kpi.ua/en/)) of the National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute” ([NTUU KPI](https://kpi.ua/en)) within the iMermaid project.
+
+## Environment
+
+You can create environment using commands below:
+
+```
+conda env create -f environment.yaml
+conda activate oilspills
+conda install -c conda-forge albumentations=1.3.1
+```
 
 ## Dataset
 
