@@ -6,10 +6,10 @@ Developed by Department of Mathematical Modelling and Data Analysis ([MMDA](http
 
 ## Environment
 
-You can create environment using commands below:
+You can create environment using commands below, where ENVIRONMENT is environment_cpu.yaml (CPU only) or environment_cuda.yaml (NVIDIA GPU):
 
 ```
-conda env create -f environment.yaml
+conda env create -f ENVIRONMENT.yaml
 conda activate oilspills
 conda install -c conda-forge albumentations=1.3.1
 ```
